@@ -12,4 +12,6 @@ _- Hide: implementa el método "Hide" o "CleverHide" y regenera la vida del NPC.
 
 Se desarrolló un controlador para el NPC. Se desarrolló la máquina de estados finitos incorporando los cuatro comportamientos correspondientes. Para el método "Patrol" se crearon tres waypoints diferentes entre los que el NPC caminaría. Para el método "Chase" se hace referencia a la posición del jugador y se dirige al NPC a través de su NavMesh. Para el método "Attack" se instancia un prefab de una bala con un rigidbody. Para el estado "Hide" se dirige al NPC a través del NavMesh a un waypoint.
 
+![](/gif.gif)
+
 A controller for the NPC was developed. The finite state machine was developed implementing the four corresponding behaviours. For the "Patrol" method, three different waypoints were created and the NPC would walk between them. For the "Chase" method the player's position is referenced and the NPC is moved using its NavMesh component. For the "Attack" method a prefab of a bulklet with a rigidbody is instantiated. For the "Hide" method the NPC is moved using its NavMesh component to a waypoint.
